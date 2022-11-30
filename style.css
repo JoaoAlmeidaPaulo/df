@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background: rgb(53,0,32);
+background: linear-gradient(45deg, rgba(53,0,32,1) 6%, rgba(254,174,197,1) 53%, rgba(255,0,77,1) 98%);
+margin: 0;
+font-family: Poppins;
+font-size: 12px;
+}
+
+.tit1{
+    text-align: center;
+    
+    color: #ad4583;
+    text-shadow: #000000 2px 2px;
+}
+
+.divt1{
+    background-color: #350020;
+    padding: 10px;
+    margin: 5vh 15vh 0  15vh;
+    border-radius: 15px;
+    border-color: #4f0030;
+    border-width: 7.5px;
+    border-style: ridge;
+
+    
+}
+
+.amada{
+    text-decoration: underline;
+    text-shadow: #000000 2px 2px;
+}
+
+.imgimg{
+    width: 420px;
+    border-radius: 30vh;
+    
+}
+
+.img{
+    text-align: center;
+    background-color: #671d49;
+    margin: 0 4vh 0 4vh;
+    padding: 2vh 0 2vh 0;
+    border-radius: 20vh;
+   
+   
+    
+    
+}
+
+.imgim{
+    background-color: #350020;
+    margin: 0 64vh 0 64vh;
+    padding:  3vh 0 3vh 0 ;
+    border-radius: 15vh ;
+}
+
+.footer{
+    text-align: center;
+    width:100%;
+    color: #ad4583;
+    font-size: 12px;
+    text-shadow: #000000 2px 2px;
+    
+    
+}
+
+.divfooter{
+    background-color: #350020;
+    padding: 0.5vh;
+    
+    
+    
+}
+
+
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: gainsboro;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #60003a;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #350020;
+}
+
+@media only screen and (max-device-width: 600px){
+    .amada{
+        text-decoration: none;
+    }
+    .divt1{
+        margin: 10px 10px 10px 10px;
+        padding: 0;
+        font-size: 10px;
+        
+    }
+    .imgimg{
+        width: 280px;
+        
+    }
+    .imgim{
+        margin: 0 15px 0 15px;
+    padding: 10px 0 10px 0;
+    border-radius: 100px;
+    }
+    .img{
+        margin: 0 10px 0 10px;
+    padding: 20px 0 20px 0;
+    border-radius: 200px;
+    }
+}
